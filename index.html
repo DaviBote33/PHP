@@ -4,14 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Revisão HTML e CSS</title>
+    <style>
+        *{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        p{
+            font-size: 20px;
+        }
+        .classe{
+            color: red;
+        }
+        #nome{
+            color: blue;
+        }
+    </style>
 </head>
 <body>
     
     <p>Paragráfo</p>
     <h1>Título Nível 1 até 6</h1>
     <ol>
-        <li>Posição 1</li>
-        <li>Position 2</li>
+        <li class="classe">Posição 1</li>
+        <li class="classe">Position 2</li>
     </ol>
 
     <ul>
@@ -41,8 +55,8 @@
     <table>
         <thead>
             <tr>
-                <th>Coluna 1</th>
-                <th>Coluna 2</th>
+                <th class="classe">Coluna 1</th>
+                <th class="classe">Coluna 2</th>
             </tr>
         </thead>
        
@@ -72,7 +86,7 @@
             <option value="2">Valor 2</option>
         </select>
         <button type="submit">Enviar</button>
-        
+
 
     </form>
 </body>

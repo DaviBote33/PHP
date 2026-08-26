@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="p-5 bg-light">
+
+    <div class="container bg-white p-4 shadow-sm" style="max-width: 700px;">
+
+        <h4 class="mb-4">Endereço de cobrança</h4>
+
+        <form class="needs-validation" novalidate>
+
+            <div class="row g-3 mb-3">
+
+                <div class="col-sm-6">
+                    <label for="nome" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="nome" required>
+                </div>
+
+                <div class="col-sm-6">
+                    <label for="sobrenome" class="form-label">Sobrenome</label>
+                    <input type="text" class="form-control" id="sobrenome" required>
+                </div>
+
+            </div>
+
+            <div class="mb-3">
+                <label for="usuario" class="form-label">Usuário</label>
+
+                <div class="input-group">
+                    <span class="input-group-text">@</span>
+                    <input type="text" class="form-control" id="usuario" placeholder="Nome de usuário" required>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="email" class="form-label">
+                    E-mail <span class="text-muted">(Opcional)</span>
+                </label>
+
+                <input type="email" class="form-control" id="email" placeholder="exemplo@email.com">
+            </div>
+
+            <div class="mb-3">
+                <label for="endereco" class="form-label">Endereço</label>
+                <input type="text" class="form-control" id="endereco" placeholder="Rua Principal, 123" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="complemento" class="form-label">
+                    Complemento <span class="text-muted">(Opcional)</span>
+                </label>
+
+                <input type="text" class="form-control" id="complemento" placeholder="Apartamento ou sala">
+            </div>
+
+            <div class="row g-3">
+
+                <div class="col-md-5">
+                    <label for="pais" class="form-label">País</label>
+
+                    <select class="form-select" id="pais" required>
+                        <option value="">Selecione...</option>
+                        <option>Brasil</option>
+                        <option>Estados Unidos</option>
+                    </select>
+                </div>
+
+                <div class="col-md-4">
+                    <label for="estado" class="form-label">Estado</label>
+
+                    <select class="form-select" id="estado" required>
+                        <option value="">Selecione...</option>
+                        <option>São Paulo</option>
+                        <option>Paraná</option>
+                    </select>
+                </div>
+
+                <div class="col-md-3">
+                    <label for="cep" class="form-label">CEP</label>
+                    <input type="text" class="form-control" id="cep" placeholder="00000-000" required>
+                </div>
+
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+</html>

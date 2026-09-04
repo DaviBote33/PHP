@@ -18,10 +18,12 @@
               <input type="number" id="idade" name="idade" class="form-control" required="">
             </div>
 <button type="submit" class="btn btn-primary">Enviar</button>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
 </form>
 
 <?php
-    if($_SERVER['REQUEST_METHOD'] == 'POST'){
+    if($_SERVER['REQUEST_METHOD'] == 'POST')
+    {
         $nome = $_POST['nome'] ?? "";
         $idade = $_POST['idade'] ?? 0;
         If($nome != "" && $idade > 0){
@@ -40,12 +42,22 @@
             $tempo = date("d/m/Y H:i:s");
             echo "<p>$tempo</p>";
 
-            
+            $exp = pow($idade, 2);
+            echo "<p> exponencial: $exp</p>";
+
+            $valor = rand(1, 10);
+            echo "<p>Valor aleatório: $valor<p>";
+
+            $resultado = 10.34 * 2.9;
+            echo "<p>Resultado: $resultado</p>";
+
+            $resultado = number_format($resultado, 2, ".", ",");
+            echo "<p> Resultado formatado: $resultado</p>";
 
         }
     }
 ?>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
-</div>
+
+    </div>
 </body>
 </html>

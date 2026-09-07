@@ -10,10 +10,11 @@
 <div class="container py-3">
 <h1>Exemplo de funções em php</h1>
 <form method="post" action="Exemplo.php">
-<div class="mb-3">
-              <label for="nome" class="form-label">Digite o seu nome</label>
-              <input type="text" id="nome" name="nome" class="form-control" required="">
-            </div><div class="mb-3">
+    <div class="mb-3">
+        <label for="nome" class="form-label">Digite o seu nome</label>
+        <input type="text" id="nome" name="nome" class="form-control" required="">
+    </div>
+            <div class="mb-3">
               <label for="idade" class="form-label">Digite sua idade</label>
               <input type="number" id="idade" name="idade" class="form-control" required="">
             </div>

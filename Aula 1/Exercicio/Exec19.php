@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1> CÁLCULO DE VELOCIDADE MÉDIA </h1>
-    <form method="POST" action="../respostas/Resp19.php">
+    <form method="POST" action="../Resposta/Resp19.php">
         <label for="distancia"> Informe a distância percorrida (km): </label>
         <input type="number" id="distancia" name="distancia">
         <label for="tempo"> Informe o tempo gasto (h): </label>

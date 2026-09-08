@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>EXERCÍCIO 4 MÉDIA</h1>
-    <form method="POST" action="../respostas/Resp4.php">
+    <form method="POST" action="../Resposta/Resp4.php">
         <label for="valor1"> Informe a primeira nota:</label>
         <input type="number" id="valor1" name="valor1">
 

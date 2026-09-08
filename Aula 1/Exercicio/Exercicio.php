@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Exercício de exemplo</h1>
-    <form method="POST" action="../respostas/resposta.php">
+    <form method="POST" action="../Resposta/Resposta.php">
         <label for="valor1">Informe o primeiro valor:</label>
         <input type="number" id="valor1" name="valor1">
 

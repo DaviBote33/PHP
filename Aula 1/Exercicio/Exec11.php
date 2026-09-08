@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1> CALCULADOR EXPONENCIAL </h1>
-    <form method="POST" action="../respostas/Resp11.php">
+    <form method="POST" action="../Resposta/Resp11.php">
         <label for="valor1"> Informe o valor: </label>
         <input type="number" id="valor1" name="valor1">
         <label for="valor2"> Informe o expoente: </label>

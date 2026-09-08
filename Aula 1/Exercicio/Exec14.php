@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Calculadora de IMC</h1>
-    <form method="POST" action="../respostas/Resp14.php">
+    <form method="POST" action="../Resposta/Resp14.php">
         <label for="peso">Informe o peso (kg):</label>
         <input type="number" id="peso" name="peso" step="0.01">
         <label for="altura">Informe a altura (m):</label>

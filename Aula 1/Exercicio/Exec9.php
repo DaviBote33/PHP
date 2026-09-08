@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1> PERÍMETRO DO RETÂNGULO </h1>
-    <form method="POST" action="../respostas/Resp9.php">
+    <form method="POST" action="../Resposta/Resp9.php">
         <label for="valor1"> Informe o valor da base do retânguolo: </label>
         <input type="number" id="valor1" name="valor1">
         <label for="valor2"> Informe o valor da altura do retânguolo: </label>

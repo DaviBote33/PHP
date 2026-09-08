@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1> CALCULADOR DE JUROS COMPOSTOS </h1>
-    <form method="POST" action="../respostas/Resp17.php">
+    <form method="POST" action="../Resposta/Resp17.php">
         <label for="valor1"> Informe o valor principal: </label>
         <input type="number" id="valor1" name="valor1">
         <label for="valor2"> Informe a taxa de juros (em %): </label>

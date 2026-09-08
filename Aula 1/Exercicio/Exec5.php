@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1> CELCIUS PARA FAHRENHEIT </h1>
-    <form method="POST" action="../respostas/Resp5.php">
+    <form method="POST" action="../Resposta/Resp5.php">
         <label for="valor1"> Informe a temperatura em Celcius: </label>
         <input type="number" id="valor1" name="valor1">
         <button type="submit"> CONVERTER PARA FAHRENHEIT </button>

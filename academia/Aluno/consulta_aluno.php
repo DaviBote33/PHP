@@ -26,7 +26,7 @@
                     <table class="table table-striped table-hover align-middle">
                         <thead><tr><th>ID</th><th>Nome</th><th>CPF</th><th>Telefone</th><th>E-mail</th><th>Data de nascimento</th><th>Plano</th><th>Ação</th></tr></thead>
                         <tbody>
-                            <?php while ($registro = $resultado->fetch(PDO::FETCH_ASSOC)) { ?>
+                            <?php while ($registro = $resultado->fetch(PDO::FETCH_ASSOC)) { ?> 
                                 <tr>
                                     <td><?= $registro["id"] ?></td>
                                     <td><?= htmlspecialchars($registro["nome"]) ?></td><td><?= htmlspecialchars($registro["cpf"]) ?></td><td><?= htmlspecialchars($registro["telefone"]) ?></td><td><?= htmlspecialchars($registro["email"]) ?></td><td><?= htmlspecialchars($registro["data_nascimento"]) ?></td><td><?= htmlspecialchars($registro["plano"]) ?></td>
